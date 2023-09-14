@@ -20,8 +20,5 @@ public class Operadores {
 		String nome = "tiago";
 		String nome2 = new String("tiago");
 		System.out.println(nome.equals(nome2) ? "iguais" : "diferentes"); // faz a comparação entre objetos
-		if(5+2+1 <= 7 && 10 == 10) {
-			System.out.println("ok");
-		}
 	}
 }
