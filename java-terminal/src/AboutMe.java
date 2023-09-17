@@ -15,7 +15,7 @@ public class AboutMe {
 		//altura
 		System.out.print("sua altura: ");
 		double altura = entrada.nextDouble();
-		//print
+		//prints
 		System.out.println("Me chamo " + nome + " " + sobrenome);
 		System.out.print("tenho " + idade + " anos ");
 		System.out.print("e " + altura + "m de altura");
