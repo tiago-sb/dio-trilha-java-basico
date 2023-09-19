@@ -14,7 +14,7 @@ public class Repeticoes_3 {
 		System.out.println("Joao gastou toda a sua mesada em doces");
 	}
 	private static double valorAleatorio() {
-		return ThreadLocalRandom.current().nextDouble(2, 8);
+		return ThreadLocalRandom.current().nextDouble(2, 8); // geração de números randômicos
 	}
 }
 
