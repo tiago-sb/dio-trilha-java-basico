@@ -12,10 +12,10 @@ public class Cozinheiro {
 		adicionarLancheNoBalcao();
 		adicionarSucoNoBalcao();
 	}
-	public void prepararLanche() {
+	private void prepararLanche() { // ninguem precisar ver o cozinheiro preparando os lanches
 		System.out.println("preparando lanche");
 	}
-	public void prepararSuco() {
+	private void prepararSuco() {
 		System.out.println("preparando suco");
 	}
 	public void prepararCombo() {
