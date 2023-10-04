@@ -1,26 +1,34 @@
 package Escola;
 public class Aluno {
+	// atributos do aluno 
 	private String nome;
+	private String cpf;
 	private int idade;
 	private float altura;
-	// get e set dos atributos para poder fazer o acesso
-	public String getNome() {
-		return nome;
+	
+	public Aluno() {}
+	public Aluno(String nome, String cpf) {
+		this.nome = nome;
+		this.cpf = cpf;
 	}
-	public void setNome(String novoNome) {
-		nome = novoNome;
+	// get e set dos atributos para poder fazer o acesso e modoficação
+	public String getNome() {
+		return this.nome;
+	}
+	public String getCpf() {
+		return this.cpf;
 	}
 	public int getIdade() {
-		return idade;
+		return this.idade;
 	}
 	public void setIdade(int novaIdade) {
-		idade = novaIdade;
+		this.idade = novaIdade;
 	}
 	public float getAltura() {
-		return altura;
+		return this.altura;
 	}
 	public void setAltura(float novaAltura) {
-		altura = novaAltura;
+		this.altura = novaAltura;
 	}
 	
 }

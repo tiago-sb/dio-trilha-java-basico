@@ -3,11 +3,10 @@ public class Escola {
 	public static void main(String[] args) {
 		Aluno primeiroAluno = new Aluno();
 		
-		primeiroAluno.setNome("anna");
-		primeiroAluno.setIdade(10);
-		primeiroAluno.setAltura(1.53f);
+		primeiroAluno.setIdade(19);
+		primeiroAluno.setAltura(1.78f);
 		System.out.println("Nome: " + primeiroAluno.getNome() + "\nIdade: " + primeiroAluno.getIdade());
-		System.out.println("altura: " + primeiroAluno.getAltura());
+		System.out.println("altura: " + primeiroAluno.getAltura() + "\nCpf: " + primeiroAluno.getCpf());
 	}
 }
 /* não posso usar esta atribuição, uma vez que os atributos são private
