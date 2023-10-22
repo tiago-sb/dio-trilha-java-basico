@@ -1,4 +1,4 @@
-package interfaces.interfaces;
+package interfaces.digitalizadora;
 
 public class Digitalizadora {
 	public void digitalizar() {
